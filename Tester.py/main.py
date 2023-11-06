@@ -6,7 +6,7 @@ port = 7620
 link = f'http://localhost:{port}/http/response'
 
 # Lógica do Testador Parte 2
-for i in range(200, 999):
+for i in range(100, 999):
 	conclue = False
 	try:
 		require = req.get(f'{link}/{i}')
