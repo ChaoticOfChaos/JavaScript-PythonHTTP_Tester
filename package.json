@@ -1,12 +1,12 @@
 {
   "name": "httptester",
   "version": "1.0.0",
-  "description": "",
+  "description": "Um Script Para Testar Todos Os Tipos de Requisições HTTP",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "author": "Richard Miguel Ferro",
   "license": "ISC",
   "dependencies": {
     "express": "^4.18.2"
