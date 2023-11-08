@@ -12,7 +12,7 @@ for i in range(100, 999):
 		require = req.get(f'{link}/{i}')
 		conclue = True
 	except:
-		require = req.get('google.com')
+		require = req.get('https://google.com')
 
 	if conclue == True:
 		if require.reason == 'unknown':
