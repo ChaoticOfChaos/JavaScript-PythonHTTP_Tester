@@ -17,6 +17,6 @@ const port = 7620
 // Coloca o Servidor de Pé
 server.listen(port, () => {
     console.log(`Server em: http://localhost:${port}/`);
-    console.log(`Teste em: http://localhost:${port}/200`);
+    console.log(`Teste em: http://localhost:${port}/http/response/200`);
     console.log('Ctrl+C Para Chutar o Servidor');
 });
